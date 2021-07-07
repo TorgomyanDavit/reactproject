@@ -56,6 +56,7 @@ function App() {
     }}>{shoeCanvas ?  "CloseCanvas" : "Show Canvas"}</button>
     {shoeCanvas ? <Animation shoeCanvas={shoeCanvas}/> : null}
   </div>
+  <h1>arman</h1>
   );
 }
 export default App;
