@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mixproject/static/css/main.af45851b.chunk.css",
+    "main.js": "/mixproject/static/js/main.afb5ec10.chunk.js",
+    "main.js.map": "/mixproject/static/js/main.afb5ec10.chunk.js.map",
+    "runtime-main.js": "/mixproject/static/js/runtime-main.43c7a5eb.js",
+    "runtime-main.js.map": "/mixproject/static/js/runtime-main.43c7a5eb.js.map",
+    "static/js/2.06fd877e.chunk.js": "/mixproject/static/js/2.06fd877e.chunk.js",
+    "static/js/2.06fd877e.chunk.js.map": "/mixproject/static/js/2.06fd877e.chunk.js.map",
+    "static/js/3.4cd8580e.chunk.js": "/mixproject/static/js/3.4cd8580e.chunk.js",
+    "static/js/3.4cd8580e.chunk.js.map": "/mixproject/static/js/3.4cd8580e.chunk.js.map",
+    "index.html": "/mixproject/index.html",
+    "static/css/main.af45851b.chunk.css.map": "/mixproject/static/css/main.af45851b.chunk.css.map",
+    "static/js/2.06fd877e.chunk.js.LICENSE.txt": "/mixproject/static/js/2.06fd877e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43c7a5eb.js",
+    "static/js/2.06fd877e.chunk.js",
+    "static/css/main.af45851b.chunk.css",
+    "static/js/main.afb5ec10.chunk.js"
+  ]
+}
