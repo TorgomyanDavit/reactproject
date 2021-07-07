@@ -18,7 +18,7 @@ import "./features/CanvasAnimation/Animation.css";
 function App() {
   let [showTodo,setshowTodo] = useState(true)
   const [divMain,setdivMain] = useState(true)
-  const [shoeCanvas,setShowCanvas] = useState(false)
+  const [shoeCanvas,setShowCanvas] = useState(true)
 
 
 
@@ -55,7 +55,6 @@ function App() {
       setShowCanvas(!shoeCanvas)
     }}>{shoeCanvas ?  "CloseCanvas" : "Show Canvas"}</button>
     {shoeCanvas ? <Animation shoeCanvas={shoeCanvas}/> : null}
-    <div>arman</div>
   </div>
   
   );
