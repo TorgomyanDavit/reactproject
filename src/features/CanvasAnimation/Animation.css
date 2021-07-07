@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mainDivCanvas{
+    width: 700px;
+}
+
+.ShowCloseAnimation {
+    width: 700px;
+    height: 30px;
+    background-color:  rgba(4, 0, 255, 0.904);
+    font-size: x-large;
+    color: seashell;
+}
+
+.canvas{
+    border: 1px solid black;
+    display: block;
+}
+.null {
+    display: none;
+}
+
+.AddButton{
+    width: 25%;
+    height: 30px;
+    color: seashell;
+    background-color: slategrey;
+}

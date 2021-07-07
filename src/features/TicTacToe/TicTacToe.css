@@ -1,0 +1,71 @@
+.button {
+    width: 700px;
+    height: 30px;
+    font-size: x-large;
+    background-color: darkorange;
+}
+
+.button:hover{
+    background-color: rgba(245, 148, 29, 0.575);
+}
+
+
+
+.CloseTicTacMAin {
+    display:contents;
+    position:relative;
+    display: none;
+}
+
+.TicTacToeMAin{
+    position: relative;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.block {
+    width: 30%;
+    height: 100px;
+    margin: 5px;
+    font-size:20px;
+    background-color: rgba(0, 0, 139, 0.438);
+    color: rgb(255, 255, 255)
+}
+
+.block:active{
+    background-color: rgba(58, 120, 236, 0.363);
+}
+
+
+
+
+
+.TheEnd {
+    background-color: rgba(61, 34, 34, 0.507);
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: cornsilk;
+}
+
+.null{
+    display: none;
+}
+
+.Score{
+    width: 100%;
+    position: absolute;
+    bottom: -25px;
+    left: 10px;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+}

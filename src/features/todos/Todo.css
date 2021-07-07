@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Todo Button show and Close*/
+.ButtonShowTodo {
+    width: 700px;
+    height: 30px;
+    font-size: x-large;
+    background-color: rgb(255, 1, 1);
+}
+.ButtonShowTodo:hover{
+    background-color: rgba(255, 1, 1, 0.534);
+}
+/* TodoForm */
+.TodoDisplayNone {
+    display: none;
+}
+.TodoProgramSpan {
+    margin-left: 40%;
+    font-size: x-large;
+}
+
+.TodoMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 700px;
+    background-color: rgba(112, 97, 65, 0.349);
+}
+.formMain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputForm {
+    width: 90%;
+    height: 30px;
+    font-size: x-large;
+}
+.inputButton {
+    width: 10%;
+}
+
+
+/* TodoList*/
+.listinput {
+    width: 20px;
+    height: 20px;
+}
+.listSpan {
+    display: inline-block;
+    width: 300px;
+    font-size: x-large;
+}
+.listButton {
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* todoFooter */
+.footerMain {
+    display: flex;
+    justify-content: space-between;
+}
+.footerSpan {
+    font-size: x-large;
+} 
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+
+.mainDiamonds{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.showButton{
+    width: 700px;
+    height: 30px;
+    font-size: x-large;
+    background-color: rgb(255, 1, 1);
+}
+
+.closeDiamonds{
+    display: none;
+}
+.Diamonds{
+    width: 200px;
+    height: 100px;
+    font-size: x-large;
+    background-color: rgba(165, 42, 42, 0.678);
+}
+
+
+.syuner{
+    width: 200px;
+    height: 100px;
+    font-size: x-large;
+    background-color: rgba(165, 42, 42, 0.678);
+}
+
+.objectdiamond {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: brown;
+    font-size: x-large;
+}

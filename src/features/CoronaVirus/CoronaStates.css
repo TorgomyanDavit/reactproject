@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* show Corona Api*/
+.ShowCoronaApi {
+    width: 700px;
+    height: 30px;
+    font-size: x-large;
+    background-color: rgb(4, 0, 255);
+}
+
+.ShowCoronaApi:hover{
+    background-color: rgba(2, 59, 248, 0.452);
+}
+
+/* corona Main */
+.CoronaMain {
+    display: flex;
+    flex-direction: column;
+    background: rgba(34, 34, 53, 0.199);
+    width: 700px;
+}
+.CoronaLabel {
+    display: flex;
+}
+
+.CoronaInput {
+    width: 100%;
+}
+
+.closeMain {
+    display: none;
+}
+
+/* country Data */
+.buttoninter {
+    width: 100%;
+    background-color: rgb(146, 89, 35);
+}
+.closeCountryData {
+    display: none;
+}
+
+/* today data */
+
+.closeTodayStats {
+    display: none;
+}
+/* latest Data */
+
+.showLatestData {
+    display: none;
+}
+
+.select {
+    width: 150px;
+}
+
+
+
+
