@@ -1,17 +1,17 @@
 import TodoList from './features/todos/TodoList';
 import TodoForm from './features/todos/TodoForm';
 import TodoFooter from './features/todos/TodoFooter';
-import CoronaStats from "./features/CoronaVirus/CoronaStats"
+import CoronaStats from "./features/CoronaVirus/CoronaStats";
 import './App.css';
-import "./features/todos/Todo.css"
-import "./features/CoronaVirus/CoronaStates.css"
+import "./features/todos/Todo.css";
+import "./features/CoronaVirus/CoronaStates.css";
 import { useState } from 'react';
 import TicTacToe from './features/TicTacToe/TicTacToe.js';
 import "./features/TicTacToe/TicTacToe.css"
 import Diamonds from './features/Diamonds/Diamonds';
 import "./features/Diamonds/diamonds.css";
 import Animation from './features/CanvasAnimation/Animation';
-import "./features/CanvasAnimation/Animation.css"
+import "./features/CanvasAnimation/Animation.css";
 
 
 
@@ -55,10 +55,7 @@ function App() {
       setShowCanvas(!shoeCanvas)
     }}>{shoeCanvas ?  "CloseCanvas" : "Show Canvas"}</button>
     {shoeCanvas ? <Animation shoeCanvas={shoeCanvas}/> : null}
-    
-
-
-   </div>
+  </div>
   );
 }
 export default App;
