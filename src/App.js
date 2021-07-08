@@ -56,6 +56,7 @@ function App() {
     }}>{shoeCanvas ?  "CloseCanvas" : "Show Canvas"}</button>
     {shoeCanvas ? <Animation shoeCanvas={shoeCanvas}/> : null}
     <div>arman</div>
+    <div>vardan</div>
   </div>
   
   );
